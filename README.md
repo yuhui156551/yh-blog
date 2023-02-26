@@ -3,7 +3,7 @@
 
 ### 技术栈
 
-  SpringBoot2、MybatisPlus、Redis、SpringSecurity、JWT、OSS、RabbitMQ、AspectJ、MySQL、Lombok、Swagger2、Vue、elasticsearch、WebSocket。
+  SpringBoot2、MybatisPlus、Redis、SpringSecurity、JWT、OSS、RabbitMQ、AspectJ、MySQL、Lombok、Knife4j、Vue、elasticsearch、WebSocket。
   
 ### 实现
   
@@ -11,7 +11,7 @@
   
   这个准备部署上线。
   
-  功能太多，下面是一小小部分效果图，如果看不了的话，建议使用魔法。
+  功能太多，下面是一小部分效果图，如果看不了的话，建议使用魔法。
 
 ### 一、前台
 
