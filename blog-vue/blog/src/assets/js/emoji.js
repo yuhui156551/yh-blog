@@ -1,115 +1,223 @@
 export default {
-  "[微笑]": "https://bsyuhui.top/emoji/smile.jpg",
+  "[微笑]": "http://bsyuhui.top/emoji/smile.png",
 
-  "[笑]": " https://bsyuhui.top/emoji/dx.jpg",
+  "[害羞]": "http://bsyuhui.top/emoji/shy.png",
 
-  "[呲牙]": "https://bsyuhui.top/emoji/cy.jpg",
+  "[击掌]": "http://bsyuhui.top/emoji/jz.png",
 
-  "[OK]": "https://bsyuhui.top/emoji/ok.jpg",
+  "[左上]": "http://bsyuhui.top/emoji/zs.png",
 
-  "[星星眼]": "https://bsyuhui.top/emoji/xxy.jpg",
+  "[握手]": "http://bsyuhui.top/emoji/ws.png",
 
-  "[哦呼]": "https://bsyuhui.top/emoji/oh.jpg",
+  "[18禁]": "http://bsyuhui.top/emoji/18ban.png",
 
-  "[嫌弃]": "https://bsyuhui.top/emoji/xq.jpg",
+  "[V5]": "http://bsyuhui.top/emoji/v5.png",
 
-  "[喜欢]": "https://bsyuhui.top/emoji/xh.jpg",
+  "[爱心]": "http://bsyuhui.top/emoji/heart.png",
 
-  "[酸了]": "https://bsyuhui.top/emoji/sl.jpg",
+  "[给力]": "http://bsyuhui.top/emoji/gl.png",
 
-  "[大哭]": "https://bsyuhui.top/emoji/dq.jpg?",
+  "[便便]": "http://bsyuhui.top/emoji/bb.png",
 
-  "[害羞]": "https://bsyuhui.top/emoji/hx.jpg",
+  "[惊讶]": "http://bsyuhui.top/emoji/jy.png",
 
-  "[无语]": "https://bsyuhui.top/emoji/wy.jpg",
+  // "[调皮]": "http://bsyuhui.top/emoji/tp.png",
 
-  "[疑惑]": "https://bsyuhui.top/emoji/yh.jpg",
+  "[礼物]": "http://bsyuhui.top/emoji/gift.png",
 
-  "[调皮]": "https://bsyuhui.top/emoji/tiaopi.jpg",
+  "[蛋糕]": "http://bsyuhui.top/emoji/dg.png",
 
-  "[笑哭]": "https://bsyuhui.top/emoji/xiaoku.jpg",
+  "[笑哭]": "http://bsyuhui.top/emoji/xk.png",
 
-  "[奸笑]": "https://bsyuhui.top/emoji/jianxiao.jpg",
+  "[奸笑]": "http://bsyuhui.top/emoji/jx.png",
 
-  "[偷笑]": "https://bsyuhui.top/emoji/touxiao.jpg",
+  "[撇嘴]": "http://bsyuhui.top/emoji/pz.png",
 
-  "[大笑]": "https://bsyuhui.top/emoji/daxiao.jpg",
+  "[困]": "http://bsyuhui.top/emoji/kun.png",
 
-  "[阴险]": "https://bsyuhui.top/emoji/yinxian.jpg",
+  "[强壮]": "http://bsyuhui.top/emoji/qiangzhuang.png",
 
-  "[捂脸]": "https://bsyuhui.top/emoji/wulian.jpg",
+  // "[狗头]": "http://bsyuhui.top/emoji/dog.png",
 
-  "[呆]": "https://bsyuhui.top/emoji/dai.jpg",
+  "[互粉]": "http://bsyuhui.top/emoji/hufen.png",
 
-  "[抠鼻]": "https://bsyuhui.top/emoji/koubi.jpg",
+  "[吃饺子]": "http://bsyuhui.top/emoji/chijiaozi.png",
 
-  "[惊喜]": "https://bsyuhui.top/emoji/jingxi.jpg",
+  "[憨笑]": "http://bsyuhui.top/emoji/hanxiao.png",
 
-  "[惊讶]": "https://bsyuhui.top/emoji/jingya.jpg",
+  "[嘴唇]": "http://bsyuhui.top/emoji/zuichun.png",
 
-  "[捂脸哭]": "https://bsyuhui.top/emoji/wulianku.jpg",
+  "[衰]": "http://bsyuhui.top/emoji/shuai.png",
 
-  "[妙啊]": "https://bsyuhui.top/emoji/miaoa.jpg",
+  "[胡瓜]": "http://bsyuhui.top/emoji/hugua.png",
 
-  "[狗头]": "https://bsyuhui.top/emoji/goutou.jpg",
+  "[狗头]": "http://bsyuhui.top/emoji/goutou.png",
 
-  "[滑稽]": "https://bsyuhui.top/emoji/huaji.jpg",
+  "[熊吉]": "http://bsyuhui.top/emoji/xiongji.png",
 
-  "[吃瓜]": "https://bsyuhui.top/emoji/chigua.jpg",
+  "[晚安]": "http://bsyuhui.top/emoji/wanan.png",
 
-  "[打call]": "https://bsyuhui.top/emoji/dacall.jpg",
+  "[不失礼貌的微笑]": "http://bsyuhui.top/emoji/weixiao.png",
 
-  "[点赞]": "https://bsyuhui.top/emoji/dianzan.jpg",
+  "[色]": "http://bsyuhui.top/emoji/se.png",
 
-  "[鼓掌]": "https://bsyuhui.top/emoji/guzhang.jpg",
+  "[大]": "http://bsyuhui.top/emoji/da.png",
 
-  "[尴尬]": "https://bsyuhui.top/emoji/ganga.jpg",
+  "[囧]": "http://bsyuhui.top/emoji/jiong.png",
 
-  "[冷]": "https://bsyuhui.top/emoji/leng.jpg",
+  "[雪人]": "http://bsyuhui.top/emoji/xueren.png",
 
-  "[灵魂出窍]": "https://bsyuhui.top/emoji/linghunchuqiao.jpg",
+  "[绿帽]": "http://bsyuhui.top/emoji/lvmao.png",
 
-  "[委屈]": "https://bsyuhui.top/emoji/weiqu.jpg",
+  "[晕]": "http://bsyuhui.top/emoji/yun.png",
 
-  "[傲娇]": "https://bsyuhui.top/emoji/aojiao.jpg",
+  "[小声说]": "http://bsyuhui.top/emoji/xiaosheng.png",
 
-  "[疼]": "https://bsyuhui.top/emoji/teng.jpg",
+  "[加油]": "http://bsyuhui.top/emoji/jiayou.png",
 
-  "[吓]": "https://bsyuhui.top/emoji/xia.jpg?",
+  "[机智]": "http://bsyuhui.top/emoji/jizhi.png?",
 
-  "[生病]": "https://bsyuhui.top/emoji/shengbing.jpg",
+  "[捂脸]": "http://bsyuhui.top/emoji/wulian.png",
 
-  "[吐]": "https://bsyuhui.top/emoji/tu.jpg",
+  "[委屈]": "http://bsyuhui.top/emoji/weiqu.png",
 
-  "[嘘声]": "https://bsyuhui.top/emoji/xusheng.jpg",
+  // "[笑哭]": "http://bsyuhui.top/emoji/xiaoku.png",
 
-  "[捂眼]": "https://bsyuhui.top/emoji/wuyan.jpg",
+  "[呲牙]": "http://bsyuhui.top/emoji/ciya.png",
 
-  "[思考]": "https://bsyuhui.top/emoji/sikao.jpg",
+  "[吐血]": "http://bsyuhui.top/emoji/tuxue.png",
 
-  "[再见]": "https://bsyuhui.top/emoji/zaijian.jpg",
+  "[发财]": "http://bsyuhui.top/emoji/facai.png",
 
-  "[翻白眼]": "https://bsyuhui.top/emoji/fanbaiyan.jpg",
+  "[去污渍]": "http://bsyuhui.top/emoji/quwuzi.png",
 
-  "[哈欠]": "https://bsyuhui.top/emoji/haqian.jpg",
+  "[调皮]": "http://bsyuhui.top/emoji/tiaopi.png",
 
-  "[奋斗]": "https://bsyuhui.top/emoji/fengdou.jpg",
+  "[思考]": "http://bsyuhui.top/emoji/sikao.png",
 
-  "[墨镜]": "https://bsyuhui.top/emoji/mojing.jpg",
+  "[金鱼]": "http://bsyuhui.top/emoji/jinyu.png",
 
-  "[撇嘴]": "https://bsyuhui.top/emoji/piezui.jpg",
+  "[南]": "http://bsyuhui.top/emoji/nan.png",
 
-  "[难过]": "https://bsyuhui.top/emoji/nanguo.jpg",
+  "[惊吓]": "http://bsyuhui.top/emoji/jingxia.png",
 
-  "[抓狂]": "https://bsyuhui.top/emoji/zhuakuang.jpg",
+  "[非常惊吓]": "http://bsyuhui.top/emoji/feichangjingxia.png",
 
-  "[生气]": "https://bsyuhui.top/emoji/shengqi.jpg",
+  "[咖啡]": "http://bsyuhui.top/emoji/kafei.png",
 
-  "[爱心]": "https://bsyuhui.top/emoji/aixin.jpg",
+  "[亲嘴]": "http://bsyuhui.top/emoji/qinzui.png",
 
-  "[胜利]": "https://bsyuhui.top/emoji/shengli.jpg",
+  "[绝]": "http://bsyuhui.top/emoji/jue.png",
 
-  "[保佑]": "https://bsyuhui.top/emoji/baoyou.jpg",
+  "[扇脸]": "http://bsyuhui.top/emoji/shanlian.png",
 
-  "[支持]": "https://bsyuhui.top/emoji/zhichi.jpg"
+  "[石化]": "http://bsyuhui.top/emoji/shihua.png",
+
+  "[舔屏]": "http://bsyuhui.top/emoji/tianping.png",
+
+  "[耶]": "http://bsyuhui.top/emoji/ye.png",
+
+  "[摸头]": "http://bsyuhui.top/emoji/motou.png",
+
+  "[吃瓜]": "http://bsyuhui.top/emoji/chigua.png",
+
+  "[帅气]": "http://bsyuhui.top/emoji/shuaiqi.png",
+
+  "[emo]": "http://bsyuhui.top/emoji/emo.png",
+
+  "[送心]": "http://bsyuhui.top/emoji/songxin.png",
+
+  "[拿捏]": "http://bsyuhui.top/emoji/nanie.png",
+
+  "[斜眼]": "http://bsyuhui.top/emoji/xieyan.png",
+
+  "[流汗]": "http://bsyuhui.top/emoji/liuhan.png",
+
+  "[震惊]": "http://bsyuhui.top/emoji/zhenjing.png",
+
+  "[辱骂]": "http://bsyuhui.top/emoji/ma.png",
+
+  "[哈切]": "http://bsyuhui.top/emoji/haqie.png",
+
+  "[比耶]": "http://bsyuhui.top/emoji/biye.png",
+
+  "[吐彩虹]": "http://bsyuhui.top/emoji/tucaihong.png",
+
+  "[无语]": "http://bsyuhui.top/emoji/wuyu.png",
+
+  "[抠鼻]": "http://bsyuhui.top/emoji/koubi.png",
+
+  "[烦躁]": "http://bsyuhui.top/emoji/fan.png",
+
+  "[生气]": "http://bsyuhui.top/emoji/shengqi.png",
+
+  "[皱眉]": "http://bsyuhui.top/emoji/zhoumei.png",
+
+  "[哭哭]": "http://bsyuhui.top/emoji/kuku.png",
+
+  "[奋斗]": "http://bsyuhui.top/emoji/fendou.png",
+
+  "[疑问]": "http://bsyuhui.top/emoji/yiwen.png",
+
+  "[猪]": "http://bsyuhui.top/emoji/zhu.png",
+
+  "[裂开]": "http://bsyuhui.top/emoji/liekai.png",
+
+  "[期待]": "http://bsyuhui.top/emoji/qidai.png",
+
+  "[关注]": "http://bsyuhui.top/emoji/guanzhu.png",
+
+  "[泣不成声]": "http://bsyuhui.top/emoji/qibuchengsheng.png",
+
+  "[香肠嘴]": "http://bsyuhui.top/emoji/xiangchangzui.png",
+
+  "[666]": "http://bsyuhui.top/emoji/666.png",
+
+  "[大笑]": "http://bsyuhui.top/emoji/daxiao.png",
+
+  "[闭嘴]": "http://bsyuhui.top/emoji/bizui.png",
+
+  "[比心]": "http://bsyuhui.top/emoji/bixin.png",
+
+  "[再见]": "http://bsyuhui.top/emoji/zaijian.png",
+
+  "[鼓掌]": "http://bsyuhui.top/emoji/guzhang.png",
+
+  "[不开心]": "http://bsyuhui.top/emoji/bukaixin.png",
+
+  "[点赞]": "http://bsyuhui.top/emoji/dianzan.png",
+
+  "[酷]": "http://bsyuhui.top/emoji/ku.png",
+
+  "[痛哭]": "http://bsyuhui.top/emoji/tongku.png",
+
+  "[锤子]": "http://bsyuhui.top/emoji/chuizi.png",
+
+  "[厉害]": "http://bsyuhui.top/emoji/lihai.png",
+
+  "[吐]": "http://bsyuhui.top/emoji/tu.png",
+
+  "[偷笑]": "http://bsyuhui.top/emoji/touxiao.png",
+
+  "[诅咒]": "http://bsyuhui.top/emoji/zuzhou.png",
+
+  "[祈祷]": "http://bsyuhui.top/emoji/qidao.png",
+
+  "[哭]": "http://bsyuhui.top/emoji/henku.png",
+
+  "[飞吻]": "http://bsyuhui.top/emoji/feiwen.png",
+
+  "[加好友]": "http://bsyuhui.top/emoji/jiahaoyou.png",
+
+  "[YYDS]": "http://bsyuhui.top/emoji/yyds.png",
+
+  "[可怜]": "http://bsyuhui.top/emoji/kelian.png",
+
+  "[左边]": "http://bsyuhui.top/emoji/zuobian.png",
+
+  "[弱爆]": "http://bsyuhui.top/emoji/ruobao.png",
+
+  "[坏笑]": "http://bsyuhui.top/emoji/huaixiao.png",
+
+  "[呆无辜]": "http://bsyuhui.top/emoji/daiwugu.png",
 };
