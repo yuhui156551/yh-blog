@@ -146,7 +146,7 @@
       <img
         width="100%"
         height="100%"
-        src="https://bsyuhui.top/config/tou.jpg"
+        src="http://bsyuhui.top/avatar/054cd3113a10728831068c181a18ab74.jpg"
       />
     </div>
   </div>
