@@ -3,11 +3,11 @@
 
 ### 技术栈
 
-  SpringBoot2、MybatisPlus、Redis、SpringSecurity、JWT、OSS、RabbitMQ、AspectJ、MySQL、Lombok、Knife4j、Vue、elasticsearch、WebSocket。
+  SpringBoot2、MybatisPlus、Redis、SpringSecurity、JWT、OSS、RabbitMQ、AspectJ、MySQL、Lombok、Knife4j、Vue、Elasticsearch、WebSocket。
   
 ### 实现
   
-  主要实现功能：登录校验、写博客、评论博客、上传图片、认证授权、更新浏览次数、后台权限控制、在线聊天室等。
+  主要实现功能：登录校验、写博客、评论博客、上传图片、认证授权、更新浏览次数、后台权限控制、在线聊天室、接口限流等。
   
   项目已部署，访问地址：www.bsyuhui.top
   
@@ -16,9 +16,9 @@
 ### 一、前台
 
 #### 1、博客主页
- ![image](https://github.com/yuhui156551/yh-blog/blob/master/img/20230226220916.png)
+ ![image](https://github.com/yuhui156551/yh-blog/blob/master/img/20230319172147.jpg)
 
- ![image](https://github.com/yuhui156551/yh-blog/blob/master/img/20230226220953.png)
+ ![image](https://github.com/yuhui156551/yh-blog/blob/master/img/20230319172409.jpg)
 #### 2、说说界面
  ![image](https://github.com/yuhui156551/yh-blog/blob/master/img/20230226221011.png)
  
