@@ -92,8 +92,8 @@ upload:
   oss:
     url: http://bsyuhui.top/
     endpoint: oss-cn-hangzhou.aliyuncs.com
-    accessKeyId: LTAI5tLRLqBt64QTXjsdp8uL
-    accessKeySecret: Y01S7jmvKHB9jW8eX9UEGLZQGSibsd
+    accessKeyId:
+    accessKeySecret:
     bucketName: yuhui-blog
 #  cos:
 #    url: http://Bucket域名/

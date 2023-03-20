@@ -34,14 +34,14 @@ public class LocalUploadStrategyImpl extends AbstractUploadStrategyImpl {
 
     @Override
     public void upload(String path, String fileName, InputStream inputStream) throws IOException {
-        // 判断目录是否存在
+        // 1、判断目录是否存在
         File directory = new File(localPath + path);
         if (!directory.exists()) {
             if (!directory.mkdirs()) {
                 throw new BizException("创建目录失败");
             }
         }
-        // 写入文件
+        // 2、写入文件
         File file = new File(localPath + path + fileName);
         // 获取文件拓展名
         String ext = "." + fileName.split("\\.")[1];
