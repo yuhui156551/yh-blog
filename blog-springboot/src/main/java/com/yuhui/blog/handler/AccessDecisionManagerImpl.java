@@ -19,11 +19,12 @@ import java.util.stream.Collectors;
 public class AccessDecisionManagerImpl implements AccessDecisionManager {
     @Override
     public void decide(Authentication authentication, Object o, Collection<ConfigAttribute> collection) throws AccessDeniedException, InsufficientAuthenticationException {
-        // 获取用户权限列表
+        // 1、获取登录用户权限列表
         List<String> permissionList = authentication.getAuthorities()
                 .stream()
                 .map(GrantedAuthority::getAuthority)
                 .collect(Collectors.toList());
+        // 2、登录用户权限与访问url所需权限进行对比    若后者包含前者，则放行
         for (ConfigAttribute item : collection) {
             if (permissionList.contains(item.getAttribute())) {
                 return;

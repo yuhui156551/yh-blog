@@ -34,7 +34,7 @@ public class MessageController {
      * @param messageVO 留言信息
      * @return {@link Result<>}
      */
-    @AccessLimit(seconds = 60, maxCount = 1)// 这个接口一分钟只能1访问一次
+    @AccessLimit(seconds = 60, maxCount = 1)// 这个接口一分钟只能访问一次
     @ApiOperation(value = "添加留言")
     @PostMapping("/messages")
     public Result<?> saveMessage(@Valid @RequestBody MessageVO messageVO) {

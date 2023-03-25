@@ -30,16 +30,16 @@ spring:
       connection-test-query: SELECT 1
   # redis配置
   redis:
-    host: 192.168.44.100
+    host:
     port: 6379
-    password: 123321
+    password:
     database: 2
   # mq配置
   rabbitmq:
-    host: 192.168.44.100
+    host:
     port: 5672
     username: yuhui
-    password: 123321
+    password:
     listener:
       simple:
         retry:
@@ -53,8 +53,8 @@ spring:
   # 邮箱配置
   mail:
     host: smtp.qq.com
-    username: 536430462@qq.com
-    password: acgmqbgenyrebjcb
+    username:
+    password:
     default-encoding: UTF-8
     port: 587
     properties:
@@ -91,10 +91,10 @@ upload:
     path: /usr/local/upload/
   oss:
     url: http://bsyuhui.top/
-    endpoint: oss-cn-hangzhou.aliyuncs.com
+    endpoint:
     accessKeyId:
     accessKeySecret:
-    bucketName: yuhui-blog
+    bucketName:
 #  cos:
 #    url: http://Bucket域名/
 #    secretId: cos的secretId

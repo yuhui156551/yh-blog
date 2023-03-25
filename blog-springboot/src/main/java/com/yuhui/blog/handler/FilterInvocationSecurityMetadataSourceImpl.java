@@ -62,13 +62,16 @@ public class FilterInvocationSecurityMetadataSourceImpl implements FilterInvocat
         // 3、获取用户请求Url
         String url = fi.getRequest().getRequestURI();
         AntPathMatcher antPathMatcher = new AntPathMatcher();
-        // 4、获取接口角色信息，若为匿名接口则放行，若无对应角色则禁止
+        // 4、用户url和请求方式与数据库做对比
         for (ResourceRoleDTO resourceRoleDTO : resourceRoleList) {
             if (antPathMatcher.match(resourceRoleDTO.getUrl(), url) && resourceRoleDTO.getRequestMethod().equals(method)) {
+                // 5、对比之后，把对应角色进行保存
                 List<String> roleList = resourceRoleDTO.getRoleList();
+                // 5.1、若无对应角色，创建名为disable的集合，意为可以访问允许匿名访问的url
                 if (CollectionUtils.isEmpty(roleList)) {
                     return SecurityConfig.createList("disable");
                 }
+                // 5.2、若有对应角色，创建数组，保存相关角色
                 return SecurityConfig.createList(roleList.toArray(new String[]{}));
             }
         }
